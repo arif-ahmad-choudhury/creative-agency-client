@@ -1,0 +1,16 @@
+.row{
+    text-align: center;     
+}
+.images{
+    height:300px;
+    margin: 10px;
+}
+h1{   
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 44px;
+   line-height: 50px;
+   letter-spacing: 0.01em;
+   color: #111430;
+}

@@ -1,0 +1,24 @@
+feedbacks. .card{
+    border: 0;
+}
+.feedbacks .card-header{
+    border: 0;
+    background-color: transparent;
+
+
+}
+
+.feedbacks .card:hover{
+    background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+    color: #fff !important;
+    transition:  .1s  all ease-in-out !important;
+}
+.feedbacks .card:hover h6,
+.feedbacks .card:hover p
+{
+    color: #fff !important;
+
+}
+.feedbacks .card:hover img{
+    display: none;
+}
