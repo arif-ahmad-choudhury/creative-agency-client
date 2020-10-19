@@ -11,7 +11,7 @@ const MakeAdmin = () => {
 
     const history = useHistory();
     const onSubmit = (data) => {
-        fetch('http://localhost:5000/makeAdmin', {
+        fetch('https://rocky-waters-36239.herokuapp.comad/makeAdmin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)

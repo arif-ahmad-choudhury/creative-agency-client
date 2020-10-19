@@ -5,7 +5,7 @@ import './Feedback.css';
 const Feedback = () => {
     const [feedbackData, setFeedbackData] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/feedback`)
+        fetch(`https://rocky-waters-36239.herokuapp.com/feedback`)
             .then(res => res.json())
             .then(data => {
                 setFeedbackData(data);

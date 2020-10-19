@@ -9,7 +9,7 @@ const CustomerServiceList = () => {
     const [customerServiceList, setCustomerServiceList] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/showOrder?email=${loggedInUser.email}`, {
+        fetch(`https://rocky-waters-36239.herokuapp.com/showOrder?email=${loggedInUser.email}`, {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })

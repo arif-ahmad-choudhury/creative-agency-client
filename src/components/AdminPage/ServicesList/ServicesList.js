@@ -11,7 +11,7 @@ const ServicesList = () => {
 
     const handleStatus = (status, id) => {
         setStatus(status);
-        fetch(`http://localhost:5000/statusUpdate`, {
+        fetch(`https://rocky-waters-36239.herokuapp.com/statusUpdate`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ status, id })
@@ -23,7 +23,7 @@ const ServicesList = () => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/adminShowServices`)
+        fetch(`https://rocky-waters-36239.herokuapp.com/adminShowServices`)
             .then(res => res.json())
             .then(data => {
                 setAdminServiceList(data);

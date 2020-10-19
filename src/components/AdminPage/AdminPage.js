@@ -8,7 +8,7 @@ const AdminPage = () => {
     const [admin, setAdmin] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/allAdmin`)
+        fetch(`https://rocky-waters-36239.herokuapp.com/allAdmin`)
             .then(res => res.json())
             .then(data => {
                 const currentAdmin = data.find(data => data.email === loggedInUser.email);

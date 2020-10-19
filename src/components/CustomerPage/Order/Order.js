@@ -27,7 +27,7 @@ const Order = () => {
         formData.append('price', data.price);
         formData.append('status', "Pending");
 
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://rocky-waters-36239.herokuapp.com/addOrder', {
             method: 'POST',
             body: formData
         })
