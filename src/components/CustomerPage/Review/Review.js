@@ -2,7 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-import logo from '../../../images/logos/logo.png';
+import logo from '../../../images/photograpy-logo1.png';
 import { Link, useHistory } from 'react-router-dom';
 import { UserContext } from '../../../App';
 
@@ -58,7 +58,7 @@ const Review = () => {
                                 <input name="name" className="form-control p-2  my-2" defaultValue={loggedInUser.displayName} ref={register({ required: true })} placeholder="Your Name" />
                                 {errors.name && <span className="text-danger text-left">Name is required</span>}
 
-                                <input type="text" name="title" className="form-control p-2  my-2" ref={register({ required: true })} placeholder="Company's name, Designation" />
+                                <input type="text" name="title" className="form-control p-2  my-2" ref={register({ required: true })} placeholder="Company's name, Designation" autoComplete="off"/>
                                 {errors.title && <span className="text-danger text-left">Company's name, Designation is required</span>}
 
                                 <textarea name="feedback" type="text" rows="3" className="form-control my-2" ref={register({ required: true })} placeholder="Description" ></textarea>

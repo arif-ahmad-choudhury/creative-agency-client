@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link, useHistory } from 'react-router-dom';
-import logo from '../../../images/logos/logo.png';
+import logo from '../../../images/photograpy-logo1.png';
 import { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { UserContext } from '../../../App';
@@ -72,7 +72,7 @@ const AddServices = () => {
                             <div className="form-row">
                                 <div className="form-group col-md-6">
                                     <label className="font-weight-bold">Service Title</label>
-                                    <input name="title" className="form-control" ref={register({ required: true })} placeholder="Enter title" />
+                                    <input name="title" className="form-control" ref={register({ required: true })} placeholder="Enter title" autoComplete="off"/>
                                     {errors.title && <span className="text-danger text-left">Service title is required</span>}
                                 </div>
                                 <div className="form-group col-md-6">

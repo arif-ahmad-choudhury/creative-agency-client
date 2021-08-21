@@ -1,8 +1,8 @@
 import React from 'react';
-import slider1 from '../../../images/carousel-1.png';
-import slider2 from '../../../images/carousel-2.png';
-import slider3 from '../../../images/carousel-4.png';
-import slider4 from '../../../images/carousel-5.png';
+import slider1 from '../../../images/photo1.jpg';
+import slider2 from '../../../images/photo2.jpg';
+import slider3 from '../../../images/photo3.jpg';
+import slider4 from '../../../images/photo4.jpg';
 import Slider from "react-slick";
 import './Portfolio.css'
 

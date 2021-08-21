@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../../images/customer-1.png';
+import img from '../../../images/customer-2.png';
 import './FeedbackDetails.css'
 
 const FeedbackDetails = (props) => {

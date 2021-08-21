@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logos/logo.png';
+import logo from '../../../images/photograpy-logo.png';
 import './Header.css';
 
 const Header = () => {

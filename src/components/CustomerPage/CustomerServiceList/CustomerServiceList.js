@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logos/logo.png';
+import logo from '../../../images/photograpy-logo1.png';
 
 const CustomerServiceList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);

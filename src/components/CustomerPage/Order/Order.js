@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { Link, useHistory } from 'react-router-dom';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logos/logo.png';
+import logo from '../../../images/photograpy-logo1.png';
 
 const Order = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -79,7 +79,7 @@ const Order = () => {
                                 <input name="email" className=" form-control p-2  my-2" defaultValue={loggedInUser.email} ref={register({ required: true })} placeholder="Your Email" />
                                 {errors.email && <span className="text-danger text-left">Email is required</span>}
 
-                                <input type="text" name="project" className=" form-control p-2  my-2" ref={register({ required: true })} placeholder="Project" />
+                                <input type="text" name="project" className=" form-control p-2  my-2" ref={register({ required: true })} placeholder="Project"  autoComplete="off"/>
                                 {errors.project && <span className="text-danger text-left">Project is required</span>}
 
                                 <textarea name="projectDetails" type="text" rows="3" className="form-control" ref={register({ required: true })} placeholder="Project Details"></textarea>

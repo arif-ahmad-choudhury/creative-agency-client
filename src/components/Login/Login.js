@@ -5,7 +5,7 @@ import firebaseConfig from './firebase.config';
 import { UserContext } from '../../App';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import logo from '../../images/logos/logo.png';
+import logo from '../../images/photograpy-logo.png';
 import googleIcon from '../../images/google.png';
 import './Login.css';
 

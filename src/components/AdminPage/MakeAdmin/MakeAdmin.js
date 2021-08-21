@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { Link, useHistory } from 'react-router-dom';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logos/logo.png';
+import logo from '../../../images/photograpy-logo1.png';
 
 const MakeAdmin = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);

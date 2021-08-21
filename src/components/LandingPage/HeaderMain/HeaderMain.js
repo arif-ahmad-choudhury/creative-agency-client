@@ -1,13 +1,13 @@
 import React from 'react';
 import './HeaderMain.css';
-import Frame from '../../../images/logos/Frame.png';
+import Frame from '../../../images/p8.jpg';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import { Container } from 'react-bootstrap';
 const HeaderMain = () => {
     return (
         <Container>
-            <main style={{background:'#FBD062'}} className="row d-flex align-items-center py-5">
+            <main style={{background:'#FFFFFF'}} className="row d-flex align-items-center py-5">
                 <Header/> 
                 <div className="col-md-4 offset-md-1">
                     <h1>Let’s Grow Your <br/> Brand To The<br/> Next Level</h1>
